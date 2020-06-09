@@ -1,5 +1,5 @@
 ﻿using System;
-using TheJourneyBegins;
+using CodeSignal.Arcade.A_TheJourneyBegins;
 
 namespace CodeSignal
 {
@@ -7,8 +7,7 @@ namespace CodeSignal
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Testing Addition");
-            Console.WriteLine(Problem1.Add(10, 20));
+            Console.WriteLine(Problem3.CheckPalindrome("hello"));
         }
     }
 }

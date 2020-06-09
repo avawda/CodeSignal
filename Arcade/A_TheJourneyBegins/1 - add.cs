@@ -1,6 +1,6 @@
-﻿namespace TheJourneyBegins
+﻿namespace CodeSignal.Arcade.A_TheJourneyBegins
 {
-    public class Problem1
+    internal class Problem1
     {
         public static int Add(int param1, int param2)
         {
