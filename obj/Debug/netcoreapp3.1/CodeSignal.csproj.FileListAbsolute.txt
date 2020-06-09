@@ -1,0 +1,13 @@
+E:\GitHub\CodeSignal\bin\Debug\netcoreapp3.1\CodeSignal.exe
+E:\GitHub\CodeSignal\bin\Debug\netcoreapp3.1\CodeSignal.deps.json
+E:\GitHub\CodeSignal\bin\Debug\netcoreapp3.1\CodeSignal.runtimeconfig.json
+E:\GitHub\CodeSignal\bin\Debug\netcoreapp3.1\CodeSignal.runtimeconfig.dev.json
+E:\GitHub\CodeSignal\bin\Debug\netcoreapp3.1\CodeSignal.dll
+E:\GitHub\CodeSignal\bin\Debug\netcoreapp3.1\CodeSignal.pdb
+E:\GitHub\CodeSignal\obj\Debug\netcoreapp3.1\CodeSignal.csprojAssemblyReference.cache
+E:\GitHub\CodeSignal\obj\Debug\netcoreapp3.1\CodeSignal.AssemblyInfoInputs.cache
+E:\GitHub\CodeSignal\obj\Debug\netcoreapp3.1\CodeSignal.AssemblyInfo.cs
+E:\GitHub\CodeSignal\obj\Debug\netcoreapp3.1\CodeSignal.csproj.CoreCompileInputs.cache
+E:\GitHub\CodeSignal\obj\Debug\netcoreapp3.1\CodeSignal.dll
+E:\GitHub\CodeSignal\obj\Debug\netcoreapp3.1\CodeSignal.pdb
+E:\GitHub\CodeSignal\obj\Debug\netcoreapp3.1\CodeSignal.genruntimeconfig.cache
