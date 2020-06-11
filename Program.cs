@@ -1,5 +1,6 @@
 ﻿using System;
 using CodeSignal.Arcade.A_TheJourneyBegins;
+using CodeSignal.Arcade.B_EdgeOfTheOcean;
 
 namespace CodeSignal
 {
@@ -7,7 +8,8 @@ namespace CodeSignal
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine(Problem3.CheckPalindrome("hello"));
+            int[] input = { 3, 6, -2, -5, 7, 3 };
+            Console.WriteLine(Problem4.AdjacentElementsProduct(input));
         }
     }
 }
