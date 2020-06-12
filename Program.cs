@@ -8,8 +8,9 @@ namespace CodeSignal
     {
         private static void Main(string[] args)
         {
-            int[] input = { 3, 6, -2, -5, 7, 3 };
-            Console.WriteLine(Problem4.AdjacentElementsProduct(input));
+            int[] input = { 6, 2, 3, 8 };
+            Console.WriteLine(string.Join(",", input));
+            Console.WriteLine(Problem6.makeArrayConsecutive2(input));
         }
     }
 }
