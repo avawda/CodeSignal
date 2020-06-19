@@ -25,37 +25,4 @@ namespace CodeSignal.Arcade.B_EdgeOfTheOcean
             return false;
         }
     }
-
-    /*public static bool almostIncreasingSequence(int[] sequence)
-    {
-        //Console.WriteLine(string.Join(",", seq));
-        //Console.WriteLine(string.Join(",", seqSorted));
-
-        for (int i = 0; i < sequence.Length; i++)
-        {
-            List<int> seq1 = new List<int>();
-            List<int> seq2 = new List<int>();
-            for (int j = 0; j < i; j++)
-            {
-                seq1.Add(sequence[j]);
-            }
-            for (int j = i + 1; j < sequence.Length; j++)
-            {
-                seq2.Add(sequence[j]);
-            }
-            var seqMerged = seq1.Concat(seq2);
-            List<int> seqSorted = new List<int>(seqMerged.Distinct().ToList());
-            seqSorted.Sort();
-
-            Console.WriteLine("i = " + i);
-            Console.WriteLine(string.Join(",", seq1));
-            Console.WriteLine(string.Join(",", seq2));
-            Console.WriteLine(string.Join(",", seqMerged));
-            Console.WriteLine(string.Join(",", seqSorted));
-
-            if (seqMerged.SequenceEqual(seqSorted))
-                return true;
-        }
-        return false;
-    }*/
 }

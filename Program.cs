@@ -1,5 +1,5 @@
 ﻿using System;
-using CodeSignal.Arcade.B_EdgeOfTheOcean;
+using CodeSignal.Arcade.C_SmoothSailing;
 
 namespace CodeSignal
 {
@@ -7,8 +7,9 @@ namespace CodeSignal
     {
         private static void Main(string[] args)
         {
-            int[] input = { 10, 1, 2, 3, 4, 5 };
-            Console.WriteLine(Problem7.almostIncreasingSequence(input));
+            string[] input = { "aba", "aa", "ad", "vcd", "aba" };
+
+            Console.WriteLine(Problem11.isLucky(1231));
         }
     }
 }
