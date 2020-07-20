@@ -1,5 +1,4 @@
 ﻿using System;
-using CodeSignal.Arcade.C_SmoothSailing;
 using CodeSignal.Arcade.D_ExploringTheWaters;
 
 namespace CodeSignal
@@ -15,13 +14,10 @@ namespace CodeSignal
             //string[] picture = { "abc", "ded" };
             //Console.Write(string.Join(",\n", Problem15.addBorder(picture)));
 
-            int[] input1 = { 1, 2, 3 };
-            int[] input2 = { 2, 1, 3 };
-            int[] input3 = { 3, 2, 1 };
-            int[] input4 = { 1, 2, 2 };
-            //Console.WriteLine(Problem16.areSimilar(input1, input2));
-            Console.WriteLine(Problem16.areSimilar(input1, input3));
-            //Console.WriteLine(Problem16.areSimilar(input1, input4));
+            //int[] input1 = { 1, 1, 1 };
+            //int[] input2 = { -1000, 0, -2, 0 };
+
+            Console.WriteLine(Problem18.palindromeRearranging("abbbccccaa"));
             Console.WriteLine();
         }
     }
