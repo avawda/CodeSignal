@@ -1,5 +1,5 @@
 ﻿using System;
-using CodeSignal.Arcade.D_ExploringTheWaters;
+using CodeSignal.Arcade.E_IslandOfKnowledge;
 
 namespace CodeSignal
 {
@@ -17,7 +17,8 @@ namespace CodeSignal
             //int[] input1 = { 1, 1, 1 };
             //int[] input2 = { -1000, 0, -2, 0 };
 
-            Console.WriteLine(Problem18.palindromeRearranging("abbbccccaa"));
+            string input = ".254.255.0";
+            Console.WriteLine(Problem21.isIPv4Address(input));
             Console.WriteLine();
         }
     }
