@@ -14,11 +14,25 @@ namespace CodeSignal
             //string[] picture = { "abc", "ded" };
             //Console.Write(string.Join(",\n", Problem15.addBorder(picture)));
 
-            //int[] input1 = { 1, 1, 1 };
-            //int[] input2 = { -1000, 0, -2, 0 };
+            int[] input1 = { 2, 3 };
+            int[] input2 = { 1, 4, 10, 6, 2 };
 
-            string input = ".254.255.0";
-            Console.WriteLine(Problem21.isIPv4Address(input));
+            int[][] image = new int[][] {
+                                new int [] {1, 1, 1 },
+                                new int [] { 1, 7, 1 },
+                                new int [] { 1, 1, 1 }
+                                };
+            int[][] image2 = new int[][] {
+                                new int [] {36,0,18,9},
+                                new int [] {27,54,9,0},
+                                new int [] {81,63,72,45}
+                                };
+            Console.WriteLine("Original Image");
+            Problem23.toString(image2);
+            Console.WriteLine();
+            Console.WriteLine("Blurred Image");
+            int[][] blurred = Problem23.boxBlur(image2);
+            Problem23.toString(blurred);
             Console.WriteLine();
         }
     }
