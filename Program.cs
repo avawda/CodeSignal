@@ -1,5 +1,5 @@
-﻿using System;
-using CodeSignal.Arcade.E_IslandOfKnowledge;
+﻿using CodeSignal.Arcade.E_IslandOfKnowledge;
+using System;
 
 namespace CodeSignal
 {
@@ -27,13 +27,22 @@ namespace CodeSignal
                                 new int [] {27,54,9,0},
                                 new int [] {81,63,72,45}
                                 };
-            Console.WriteLine("Original Image");
-            Problem23.toString(image2);
+            //Console.WriteLine("Original Image");
+            //Problem23.toString(image2);
+            //Console.WriteLine();
+            //Console.WriteLine("Blurred Image");
+            //int[][] blurred = Problem23.boxBlur(image2);
+            //Problem23.toString(blurred);
+            //Console.WriteLine();
+
+            bool[][] matrix = new bool[][] {
+                                new bool [] {true, false, false },
+                                new bool [] {false, true, false },
+                                new bool [] {false, false, false }
+            };
             Console.WriteLine();
-            Console.WriteLine("Blurred Image");
-            int[][] blurred = Problem23.boxBlur(image2);
-            Problem23.toString(blurred);
-            Console.WriteLine();
+            int[][] result = Problem24.minesweeper(matrix);
+            Problem24.toString(result);
         }
     }
 }
